@@ -1,0 +1,66 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "loan",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"loans",
+                        "patterns":[
+                                "what loan",
+                                "student loan",
+                                "loan",
+                                "loan eligibility",
+                                "getting loans",
+                                "getting a loan",
+                                "I want a loan"
+                        ],
+                        "responses":[
+                                "Refer types of student private loans <a target=\"_blank\" href=\"https://www.bankrate.com/loans/student-loans/types-of-private-student-loans\"> click here </a> "
+                        ],
+                        "context_set": ""
+                }
+               
+        ]
+}
